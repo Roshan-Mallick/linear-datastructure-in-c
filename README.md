@@ -1,6 +1,6 @@
 # 📦 Linear Data Structures in C
 
-A hands-on collection of **47 programs** implementing all major linear data structures in C — with real-world simulations for each topic.
+A hands-on collection of **52 programs** implementing all major linear data structures in C — with real-world simulations for each topic.
 
 ---
 
@@ -13,10 +13,11 @@ linear-datastructure-in-c/
 ├── 03_queue/
 ├── 04_circular_queue/
 ├── 05_priority_queue/
-└── 06_linked_list/
-    ├── singly_linked_list/
-    ├── doubly_linked_list/
-    └── circular_linked_list/
+├── 06_linked_list/
+│   ├── singly_linked_list/
+│   ├── doubly_linked_list/
+│   └── circular_linked_list/
+└── 07_searching_sorting/
 ```
 
 ---
@@ -31,7 +32,8 @@ linear-datastructure-in-c/
 | 04 | Circular Queue | 4 |
 | 05 | Priority Queue | 4 |
 | 06 | Linked List (Singly + Doubly + Circular) | 17 |
-| | **Total** | **47** |
+| 07 | Searching & Sorting | 5 |
+| | **Total** | **52** |
 
 ---
 
@@ -127,6 +129,17 @@ linear-datastructure-in-c/
 | 02_insert_node.c | Insert a node |
 | 03_delete_node.c | Delete a node |
 | 04_circular_list_simulation.c | Real-world simulation |
+
+---
+
+### 🔍 07 — Searching & Sorting
+| File | Topic |
+|------|-------|
+| 01_linear_search.c | Linear search |
+| 02_binary_search.c | Binary search |
+| 03_bubble_sort.c | Bubble sort |
+| 04_selection_sort.c | Selection sort |
+| 05_insertion_sort.c | Insertion sort |
 
 ---
 
