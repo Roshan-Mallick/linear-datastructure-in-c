@@ -3,10 +3,27 @@
 
 int main (){
 
-    int arr[100] = { 10 , 20 , 30 , 40 , 50 };
-    int size = 5;
-    int index = 2 ;
-    int value = 25;
+    int size;
+
+    printf("Enter size : ");
+    scanf("%d",&size);
+
+
+
+    int arr[size];
+    printf("Enter array elements : ");
+	    for (int i = 0 ; i < size ; i++){
+                   scanf("%d",&arr[i]);
+	    }
+
+
+    int index;
+    printf("Enter value of the index : ");
+    scanf("%d",&index);
+
+    int value;
+    printf("Enter index value : ");
+    scanf("%d",&value);
 
     printf("Before element insert : ");
     for (int i = 0 ;i < size ;i++){
