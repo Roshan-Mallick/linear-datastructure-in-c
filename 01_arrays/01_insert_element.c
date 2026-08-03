@@ -14,8 +14,6 @@ int main  () {
         scanf("%d",&arr[i]);
     }
 
-
-
     int index , value ;
 
     printf("Enter index in which you want to insert the value : ");
